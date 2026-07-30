@@ -1,1 +1,1 @@
-# ai_image_detection_fft
+# ai_image_detection_5week
