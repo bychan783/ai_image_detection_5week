@@ -15,7 +15,7 @@ image_list = [
 
 def main():
     obj = BRISQUE(url=False)
-    
+    img_num = 1 
 
     # 표 상단 헤더 출력
     print("=" * 72)
@@ -24,7 +24,7 @@ def main():
 
     # 2. 이미지별 점수 계산 및 표 형식 출력
     for filename, label in image_list:
-        img_num = 1 
+       
         if os.path.exists(filename):
             try:
                 img = Image.open(filename).convert('RGB')
