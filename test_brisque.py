@@ -5,12 +5,12 @@ from brisque import BRISQUE
 
 # 1. 평가할 이미지 6장 목록 (파일명, 카테고리명)
 image_list = [
-    ("dog_normal.jpg", "img_normal.jpg"),                   # 일반 사각형 이미지
-    ("dog_ai.png", "img_ai.png"),                           # AI로 만든 사각형 이미지
-    ("dog_cartoon.jpg", "img_cartoon.jpg"),                 # 만화로 만든 흑백 스케치
-    ("dog_ai_sketch_black.png", "img_ai_sketch_black.png"), # AI로 만든 흑백 스케치
-    ("dog_sketch.jpg", "img_sketch.jpg"),                   # AI 없이 만든 흑백 스케치
-    ("dog_ai_sketch_color.png", "img_ai_sketch_color.png")  # AI로 만든 컬러 스케치
+    ("img1.jpg", "img_normal.jpg"),                      # 일반 사각형 이미지
+    ("img2.png", "img_ai.png"),                          # AI로 만든 사각형 이미지
+    ("img3.jpg", "img_cartoon.jpg"),                     # 만화로 만든 흑백 스케치
+    ("img4.png", "img_ai_sketch_black.png"),             # AI로 만든 흑백 스케치
+    ("img5.jpg", "img_sketch.jpg"),                      # AI 없이 만든 흑백 스케치
+    ("img6.png", "img_ai_sketch_color.png")              # AI로 만든 컬러 스케치
 ]
 
 def main():
